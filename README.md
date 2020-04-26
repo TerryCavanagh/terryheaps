@@ -12,7 +12,7 @@ If you're reading this, you might be interested in some of the following heaps b
 
 *terryheaps* is not on haxelib yet, so to use it:
  * Download this repo somewhere on your computer
- * Tell haxelib where to find the library with `haxelib dev terryheaps folder/to/terryheaps`
- * Download the [blank project]<https://github.com/TerryCavanagh/terryheaps/blob/master/blank%20framework.zip?raw=true> and open the folder with vscode.
+ * Tell haxelib where to find the library with `haxelib dev terryheaps folder/to/terryheaps`. (note,  the `terryheaps` folder containing all the `.hx` files, not the root folder of the repo containing this readme)
+ * Download the [blank project](https://github.com/TerryCavanagh/terryheaps/blob/master/blank%20framework.zip?raw=true) and open the folder with vscode.
  * You will need the following vscode plugins: `vscode-commandbar`, `Haxe`. If you've got it set up right, you'll get little compiler buttons like this in vscode: 
  ![vscode compiler buttons](https://i.imgur.com/0Li5xiJ.png)
