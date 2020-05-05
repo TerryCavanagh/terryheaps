@@ -1,8 +1,7 @@
 package terryheaps;
 
 class Gfx{
-  public static function init(_c:Core){
-    core = _c;
+  public static function init(){
     scene2d = core.s2d;
     scene3d = core.s3d;
 
