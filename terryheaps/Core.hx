@@ -9,10 +9,6 @@ class Core extends hxd.App {
 		Gfx.core = this;
 		assetsloaded = false;
 
-		#if generatemanifestfs
-		cherry.fs.ManifestBuilder.generate("data", null, "manifest.json");
-		#end
-
 		#if manifestfs
 		var loader:cherry.res.ManifestLoader = cherry.fs.ManifestBuilder.initManifest("data");
 		cherry.res.ManifestLoader.concurrentFiles = 4;
